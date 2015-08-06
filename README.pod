@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-AnyEvent::NRPE::Client - Insert Abstract Here
+AnyEvent::NRPE::Client - Non blocking NPRE Client
 
 =head1 VERSION
 
@@ -28,5 +28,10 @@ version 0.1
             #   buffer => CHECK_OUTPUT
             # }
         };
+
+=head1 DESCRIPTION
+
+NPRE is a protocal for running a nagios check on a remote server.  This module
+provides an AnyEvent native non-blocking client for NPRE.
 
 =cut
